@@ -5,6 +5,7 @@ def greet(name):
 
 # Call the function
 greet("Tessa")
+greet("Ioanna")
 
 
 #2 If/else statement
@@ -20,6 +21,7 @@ goldilocks(139)
 goldilocks(140)
 goldilocks(151)
 goldilocks(150)
+
 
 #3 For loops
 def square_list(numbers):
