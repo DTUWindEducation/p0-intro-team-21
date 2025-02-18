@@ -5,7 +5,6 @@ def greet(name):
 
 # Call the function
 greet("Tessa")
-greet("Ioanna")
 
 
 #2 If/else statement
@@ -21,7 +20,6 @@ goldilocks(139)
 goldilocks(140)
 goldilocks(151)
 goldilocks(150)
-
 
 #3 For loops
 def square_list(numbers):
@@ -61,17 +59,3 @@ def clean_pitch(pitch_angles, status_signals):
 angle = [-1, 3, 6, 95]  # "raw" pitch angles
 status = [1, 0, 0, 0]  # status signals
 print(clean_pitch(angle, status)) 
-
-#if you want to iterate through two lists at the same time 
-list_a = [1,2,3]
-list_b=['a','b','c']
-for tup in zip(list_a,list_b):
-      item_a, item_b = tup
-      print(item_a,item_b)
-
-#fetch and pull on GitHub (fetch is you only take info from the ohter branch, and pull 
-#is that you also implement that, so a pull is a fetch followed by a merge)
-#pull request = branch to a branch
-#gitignore = file ending patterns that you tell git to ignore
-
-#copy that lives in user space that you live in (fork), and branch is your own
