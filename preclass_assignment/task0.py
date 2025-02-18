@@ -56,6 +56,6 @@ def clean_pitch(pitch_angles, status_signals):
       return cleaned_data
 
 
-angle = [-1, 3, 6, 95]  # "raw" pitch angles
+angle = [-2, 3, 6, 95]  # "raw" pitch angles
 status = [1, 0, 0, 0]  # status signals
 print(clean_pitch(angle, status)) 
