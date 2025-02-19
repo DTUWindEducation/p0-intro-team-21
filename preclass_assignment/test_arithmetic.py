@@ -3,7 +3,7 @@
 import numpy as np
 import pytest
 
-from test_arithmetic_extras import square 
+from test_arithmetic_extras import square
 
 def test_square_integer():
     """Test that the square function returns the correct value for an
